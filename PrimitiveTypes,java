@@ -1,0 +1,78 @@
+# What are Primitive types ?
+- Used to store simple variables
+- Predefined by the pogramming language and are not objects
+
+| type   | bytes | Description      |
+|--------|-------|------------------|
+|byte    | 1     | Range : [-128, 127] |
+|short   | 2     | Range : [-32,768, 32,767 ] |
+| int    | 4     | Range : [-2B, 2B] |
+| long   | 8     | Used for larger integers |
+| float  | 4     | Used for decimal values |
+| double | 8     | More precise decimal values |
+| char   | 2     | Single characters like 'X','Y' |
+| boolean | 1    | true / false   |  
+
+
+# Key Points :
+- int     
+        
+        int population = 1000000;
+
+- Underscore for Readability
+    - Use undeerscore  _  in numbers for better readability    
+
+             int population = 1_000_000;
+
+- byte 
+
+        byte age = 25;
+        byte hoursInDay = 24;
+
+- short 
+        
+        short year = 2025;
+        short temperarture = -100;
+
+- character
+    - Surround cgaracter with single quotes
+
+            char grade = 'A';
+
+- boolean 
+    - hold true or false values
+
+            boolean isActive = false;
+
+# Reference Types :
+- Used for storing complex objects such as arrays, strings and use-defined objects
+- These types store reference to the actual data in memory than the data itself
+
+| stack           |            heap    |
+|-----------------|--------------------|
+| person (0 * 1001) | [0 * 1001 : Person Object]<br> name = "John" <br> age = 30 |
+| number (0 * 2002) | [0 * 2002 : Array Object]<br> [10, 20, 30] |
+
+# Reserved Keywords :
+- Certain words are reserved in the language and cannot be used to name variables, classes or methods (e.g., int, double, class, void )
+ 
+ # Default Behaviour :
+ - A whole number literal in itself is int
+ - A decimal number in literal in itself in itself is double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
