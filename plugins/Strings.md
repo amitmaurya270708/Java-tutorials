@@ -1,4 +1,4 @@
-# Strngs
+# Strings
 In Java,  strings of the String class. They can be created in multiple ways.
 # 1. Using the new Keyword
     String message = new String("hello");
