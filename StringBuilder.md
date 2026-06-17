@@ -1,4 +1,4 @@
-# String Builder
+ # String Builder
 - Mutable sequence of characters used for efficient string mnanipulation in Java
 - Allows modifications without creating new objects, improving performance when frequent changes are required
 
